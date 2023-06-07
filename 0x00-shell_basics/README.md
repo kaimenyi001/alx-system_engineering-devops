@@ -17,3 +17,4 @@
 101-clean_emacs-clean emacs
 102-tree-creates directories
 103-commas-separated by commas
+school.mgc-Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
