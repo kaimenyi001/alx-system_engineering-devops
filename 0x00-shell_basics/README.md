@@ -6,3 +6,4 @@
 5-listfilesdigitonly-with user and group IDs displayed numerically
 6-firstdirectory-creates a directory named my_first_directory in the /tmp/ directory.
 7-movethatfile-Move the file
+8-firstdelete-Delete the file betty
