@@ -14,3 +14,4 @@
 13-change_group-changes the group owner
 100-change_owner_and_group-changes owner and group
 101-symbolic_link_permissions-
+102-if_only-only if it is owned by the user guillaume
