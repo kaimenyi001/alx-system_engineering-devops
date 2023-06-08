@@ -12,3 +12,4 @@
 11-directories_permissions-adds execute permission to all subdirectories of the current directory
 12-directory_permissions-creates a directory called my_dir with permissions 751 in the working directory
 13-change_group-changes the group owner
+100-change_owner_and_group-changes owner and group
