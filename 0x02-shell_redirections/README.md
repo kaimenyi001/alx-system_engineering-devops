@@ -5,3 +5,4 @@
 4-lastlines - output last 10 lines
 5-firstlines - Display first 10 lines of a file
 6-third_line - display the third line of a file
+7-file -  creates a file named exactly
