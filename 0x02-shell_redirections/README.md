@@ -8,3 +8,4 @@
 7-file -  creates a file named exactly
 8-cwd_state - writes into a file the results of ls -la
 9-duplicate_last_line - duplicates the last line of the file
+10-no_more_js - deletes all the regular files (not the directories) with a .js extension
