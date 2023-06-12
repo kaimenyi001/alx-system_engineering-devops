@@ -18,3 +18,4 @@
 17-hidethisword - Display all files that do not contain the pattern “bin”
 18-letteronly - display all lines starting with a letter
 19-AZ - Replace all characters A and c from input to Z and e respectively
+20-hiago - removes all letters c and C from input
