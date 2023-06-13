@@ -5,3 +5,4 @@
  2 files changed, 3 insertions(+)
  create mode 100755 0x03-shell_variables_expansions/2-path
 3-paths - counts the number of directories in the PATH
+4-global_variables -  lists environment variables
