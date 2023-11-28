@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Bash script that lists files in ls
+
+for i in *
+do
+    echo "$i" | cut -f 2- -d '-'
+done
