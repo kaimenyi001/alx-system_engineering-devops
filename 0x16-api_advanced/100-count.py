@@ -6,7 +6,7 @@ import requests
 
 
 def count_words(subreddit, word_list, after='', word_dict={}):
-    """ Prints counts of given words found in hot posts of a given subreddit."""
+    """ Prints counts of words found in hot posts of a subreddit."""
 
     if not word_dict:
         for word in word_list:
