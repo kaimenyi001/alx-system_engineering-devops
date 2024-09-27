@@ -4,22 +4,18 @@
 """
 
 import requests
-from sys import argv
 
 
 def top_ten(subreddit):
-    """
-        Returns top ten posts for a given subreddit
-    """
-    user = {'User-Agent': 'Lizzie'}
-    url = requests.get('https://www.reddit.com/r/{}/hot/.json?limit=10'
-                       .format(subreddit), headers=user).json()
-    try:
-        for post in url.get('data').get('children'):
-            print(post.get('data').get('title'))
-    except Exception:
+    """Returns the top ten posts for a given subreddit"""
+    url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit=10"
+    headers = {'user-agent': 'request'}
+    response = requests.get(url, headers=headers, allow_redirects=False)
+
+    if response.status_code != 200:
         print(None)
+        return
 
-
-if __name__ == "__main__":
-    top_ten(argv[1])
+    data = response.json().get("data").get("children")
+    top_10_posts = "\n".join(post.get("data").get("title") for post in data)
+    print(top_10_posts)
